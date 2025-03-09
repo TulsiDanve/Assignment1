@@ -1,5 +1,4 @@
 # Assignment1
-
 Coding Test
 This repository contains multiple coding exercises, including Java programs and JavaScript-powered web applications.  
 
