@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .profile-card {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #3498db;
+        }
+
+        .profile-card h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .profile-card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #3498db;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="./profilePic.jpeg" alt="Profile Picture">
+        <h2>Sayali Patil</h2>
+        <p>Web Developer</p>
+        <p>Passionate about building interactive web applications and user-friendly experiences.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</body>
+</html>
